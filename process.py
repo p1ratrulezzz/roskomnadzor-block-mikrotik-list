@@ -4,7 +4,9 @@ import ipaddress
 
 
 #### Variables
-list_name = "vpn-routed"
+# Name for address list in Mikrotik
+list_name = "blocked-ips"
+# Source file name
 source_filename = "rkn.json"
 
 ########################################################################################################################
